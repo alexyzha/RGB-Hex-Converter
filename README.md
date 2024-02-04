@@ -1,5 +1,13 @@
-# RGB-Hex-Converter:
-This is an app that sits in the macOS menubar. It takes any RGB string input (in the format "\[num](any number of ' ' or ',')\[num](any number of ' ' or ',')\[num]") and returns a hexadecimal string (#XXXXXX).\nHexadecimal strings, if valid, will return "\[num], \[num], \[num]".
+# RGB-Hex Converter:
+This is an app that sits in the macOS menubar. It takes any valid RGB string input and returns a hexadecimal string "#XXYYZZ". Hexadecimal strings, if valid, will return "\[num], \[num], \[num]".
+
+**Here's the format for valid strings:**
+- For hex: #XXYYZZ
+- For RGB: "\[num](any number of ' ' or ',')\[num](any number of ' ' or ',')\[num]"
+- XX, YY, and ZZ are all hexadecimals from 00 to FF
+- \[num] can be any number from 0-255
+
+# Better Clipboard:
 
 This app also lets you **store up to 5 colors** (Hex), as shown below:
 
