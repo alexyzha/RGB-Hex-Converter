@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014EA1FD2B6F6B0B00030457 /* rgb_hex_converterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EA1FC2B6F6B0B00030457 /* rgb_hex_converterApp.swift */; };
-		014EA1FF2B6F6B0B00030457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EA1FE2B6F6B0B00030457 /* ContentView.swift */; };
+		014EA1FD2B6F6B0B00030457 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EA1FC2B6F6B0B00030457 /* main.swift */; };
 		014EA2012B6F6B0E00030457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014EA2002B6F6B0E00030457 /* Assets.xcassets */; };
 		014EA2042B6F6B0E00030457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014EA2032B6F6B0E00030457 /* Preview Assets.xcassets */; };
+		014EA20E2B6F6C6500030457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EA20D2B6F6C6500030457 /* ContentView.swift */; };
+		014EA2142B70191700030457 /* ConvertColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EA2132B70191700030457 /* ConvertColor.swift */; };
+		014EA2182B70284A00030457 /* Memoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014EA2172B70284A00030457 /* Memoy.swift */; };
+		014EA21A2B70400600030457 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 014EA2192B70400600030457 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		014EA1F92B6F6B0B00030457 /* rgb-hex-converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rgb-hex-converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		014EA1FC2B6F6B0B00030457 /* rgb_hex_converterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rgb_hex_converterApp.swift; sourceTree = "<group>"; };
-		014EA1FE2B6F6B0B00030457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		014EA1FC2B6F6B0B00030457 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		014EA2002B6F6B0E00030457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		014EA2032B6F6B0E00030457 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		014EA2052B6F6B0E00030457 /* rgb_hex_converter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rgb_hex_converter.entitlements; sourceTree = "<group>"; };
+		014EA20D2B6F6C6500030457 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		014EA2132B70191700030457 /* ConvertColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertColor.swift; sourceTree = "<group>"; };
+		014EA2172B70284A00030457 /* Memoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoy.swift; sourceTree = "<group>"; };
+		014EA2192B70400600030457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 		014EA1F02B6F6B0B00030457 = {
 			isa = PBXGroup;
 			children = (
+				014EA2192B70400600030457 /* Info.plist */,
 				014EA1FB2B6F6B0B00030457 /* rgb-hex-converter */,
 				014EA1FA2B6F6B0B00030457 /* Products */,
 			);
@@ -52,8 +59,10 @@
 		014EA1FB2B6F6B0B00030457 /* rgb-hex-converter */ = {
 			isa = PBXGroup;
 			children = (
-				014EA1FC2B6F6B0B00030457 /* rgb_hex_converterApp.swift */,
-				014EA1FE2B6F6B0B00030457 /* ContentView.swift */,
+				014EA2172B70284A00030457 /* Memoy.swift */,
+				014EA2132B70191700030457 /* ConvertColor.swift */,
+				014EA1FC2B6F6B0B00030457 /* main.swift */,
+				014EA20D2B6F6C6500030457 /* ContentView.swift */,
 				014EA2002B6F6B0E00030457 /* Assets.xcassets */,
 				014EA2052B6F6B0E00030457 /* rgb_hex_converter.entitlements */,
 				014EA2022B6F6B0E00030457 /* Preview Content */,
@@ -129,6 +138,7 @@
 			files = (
 				014EA2042B6F6B0E00030457 /* Preview Assets.xcassets in Resources */,
 				014EA2012B6F6B0E00030457 /* Assets.xcassets in Resources */,
+				014EA21A2B70400600030457 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014EA1FF2B6F6B0B00030457 /* ContentView.swift in Sources */,
-				014EA1FD2B6F6B0B00030457 /* rgb_hex_converterApp.swift in Sources */,
+				014EA2142B70191700030457 /* ConvertColor.swift in Sources */,
+				014EA2182B70284A00030457 /* Memoy.swift in Sources */,
+				014EA20E2B6F6C6500030457 /* ContentView.swift in Sources */,
+				014EA1FD2B6F6B0B00030457 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +211,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -256,6 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -271,12 +285,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "rgb-hex-converter/rgb_hex_converter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rgb-hex-converter/Preview Content\"";
+				DEVELOPMENT_TEAM = BJ63H47MYS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,12 +313,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "rgb-hex-converter/rgb_hex_converter.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rgb-hex-converter/Preview Content\"";
+				DEVELOPMENT_TEAM = BJ63H47MYS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
