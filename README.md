@@ -34,3 +34,5 @@ This app also lets you **store up to 5 colors** (Hex), as shown below:
 
 # As of 2/4/2024 (Bugs?):
 - On my own computer there's an issue where you can only paste by right clicking on the input textfield and manually pressing paste.
+
+<img width="285" alt="Screenshot 2024-02-04 at 4 26 24 PM" src="https://github.com/alexyzha/RGB-Hex-Converter/assets/122637724/57614fe7-27d8-431a-a22a-c7bd2fa6f938">
