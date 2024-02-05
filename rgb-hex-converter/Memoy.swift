@@ -14,7 +14,7 @@ struct RecentNX: View {
     var onCommandTap: () -> Void
     var body: some View {
         Button(action: {
-            if commandKeyPressed() {
+            if CommandKeyPressed() {
                 onCommandTap()
             } else {
                 onTap()
@@ -33,7 +33,7 @@ struct RecentNX: View {
     }
 }
 
-func commandKeyPressed() -> Bool {
+func CommandKeyPressed() -> Bool {
     return NSEvent.modifierFlags.contains(.command)
 }
 
