@@ -1,3 +1,9 @@
+# How to download:
+- "RGB-Hex Converter.app/Contents" is the compiled app. You can simply download the entire folder (\[<> Code] ––> "Download ZIP")
+- Once you run it it'll appear in your menu bar. You can leave it open if you'd like.
+- I would recommend putting the app in your applications folder/dock/launchpad if you're going to use it a lot :)
+- Click the icon in the menu bar, and then "Quit" at the bottom of the popover menu to quit.
+
 # RGB-Hex Converter:
 This is an app that sits in the macOS menubar. It takes any valid RGB string input and returns a hexadecimal string "#XXYYZZ". Hexadecimal strings, if valid, will return "\[num], \[num], \[num]".
 
@@ -16,3 +22,6 @@ This app also lets you **store up to 5 colors** (Hex), as shown below:
 **This is how you use it:**
 - **\[Click]** the "Copy #XXYYZZ" to copy to clipboard.
 - While hovering over any slot, **Command + \[Click]** to paste valid RGB string or Hex from clipboard to the chosen slot.
+
+# As of 2/4/2024 (Bugs?):
+- On my own computer there's an issue where you can only paste by right clicking on the input textfield and manually pressing paste.
