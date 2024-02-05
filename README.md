@@ -4,6 +4,8 @@
 - I would recommend putting the app in your applications folder/dock/launchpad if you're going to use it a lot :)
 - Click the icon in the menu bar, and then "Quit" at the bottom of the popover menu to quit.
 
+<img width="411" alt="Screenshot 2024-02-04 at 4 23 40 PM" src="https://github.com/alexyzha/RGB-Hex-Converter/assets/122637724/c5bcc7d0-0293-49e8-b118-5f312bb5ca73">
+
 # RGB-Hex Converter:
 This is an app that sits in the macOS menubar. It takes any valid RGB string input and returns a hexadecimal string "#XXYYZZ". Hexadecimal strings, if valid, will return "\[num], \[num], \[num]".
 
